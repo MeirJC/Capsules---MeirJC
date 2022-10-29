@@ -10,24 +10,28 @@
     <title>Document</title>
   </head>
   <body>
-    <center>
-      <iframe
-        style="margin: 3rem auto"
-        src="https://giphy.com/embed/guufsF0Az3Lpu"
-        width="640"
-        height="480"
-        frameborder="0"
-        class="giphy-embed"
-        allowfullscreen
-      ></iframe>
-      <p
-        style="
-          font-size: 3rem;
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
-        "
-      >
-        🍍 Under Construction 🍍
-      </p>
-    </center>
+    <header>
+      <h1>My Capsule Orginizer</h1>
+      <p>Click the table heading to sort by</p>
+    </header>
+    <div id="main-container">
+      <div>
+        <center>
+          <button id="resetBtn">RESET</button>
+        </center>
+      </div>
+      <div class="row">
+        <button class="ID cell btn">ID</button>
+        <button class="First cell btn">First-Name</button>
+        <button class="Last cell btn">Last-Name</button>
+        <button class="Capsule cell btn">Capsule</button>
+        <button class="Age cell btn">Age</button>
+        <button class="City cell btn">City</button>
+        <button class="Gender cell btn">Gender</button>
+        <button class="Hobby cell btn">Hobby</button>
+        <button class="Hidden cell btn">Delete</button>
+      </div>
+      <div id="table"></div>
+    </div>
   </body>
 </html>
