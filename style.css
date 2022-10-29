@@ -4,8 +4,9 @@
 }
 
 html {
-  font-size: calc(15px + 0.425vw);
+  font-size: 1.65vw;
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -26,7 +27,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
 }
 
 h1 {
@@ -64,10 +64,12 @@ li {
   background-color: #98c1d9;
 }
 
-
+.Hidden {
+  color: transparent;
+  margin-left: 3wv;
+}
 
 .cell {
-  /* font-weight: 600; */
   text-align: left;
   width: 10%;
 }
@@ -89,7 +91,7 @@ button {
 #resetBtn,
 .deleteBtn {
   text-align: center;
-  margin: 0.85rem;
+  margin: 0.8rem 0.2rem;
   padding: 0.15rem 0.3rem;
   border: 3px solid #444;
   border-radius: 5px;

@@ -24,4 +24,8 @@ Delete and Reset options available
 
 Project is live [here](https://capsules-meirjc.netlify.app/).
 
-but if you find this interesting and have any questions about the code or process, feel free to reach out to me here or at my [LinkedIn](https://linkedin.com/in/meirjcohen).
+If you find this interesting and have any questions about the code or process, feel free to reach out to me here or at my [LinkedIn](https://linkedin.com/in/meirjcohen).
+
+\m/ (>.<) \m/
+
+Meir J C 🤙
